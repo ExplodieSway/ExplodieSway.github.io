@@ -14,18 +14,41 @@
     <head>
     <body>
         <style type="text/css">
-            @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
-            html::-webkit-scrollbar {
+            @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+            :root {
+                color-scheme: dark;
+            }
+            ::-webkit-scrollbar {
                 display: none;
             }
+            .container {
+                margin: 10px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                padding: 10px;
+                border-radius: 20px;
+                background-color: #0c1117;
+            }
             body {
-                background-color: black;
-                font-family: 'IBM Plex Mono', monospace;
-                line-height: 25pt;
+                background-color: #000000;
+                font-family: 'Inconsolata', monospace;
+                line-height: 20pt;
+            }
+            h1 {
+                margin-top: 30px;
+                margin-bottom: 40px;
+            }
+            hr {
+                width: 5%;
+                border-radius: 10px;
+                margin-right: auto;
+                margin-left: auto;
+                margin-top: 50px;
+                margin-bottom: 50px;
             }
             p {
                 color: green;
-                font-size: 25px;
+                font-size: 23px;
                 text-align: center;
             }
             img {
@@ -39,35 +62,39 @@
             a:hover {
                 text-decoration: underline;
             }
+            img {
+                border-radius: 10px;
+                margin-bottom: 30px;
+            }
             </style>
-        <hr color="green" size="2" width="100%">
-        <h1 align="center"><font color="green" size="8"><u>A Very Warm Welcome to My Blog!</u></font></h1>
+        <div class="container">
+        <h1 align="center"><font color="green" size="6">A Very Warm Welcome to My Blog!</font></h1>
         <p>Hey! This is Explodie Sway, a script kiddie. This is a webpage I developed for no reason, updated irregularly.</p>
         <p>Hope you'll love to be a part of this endeavour!</p>
-        <hr color="green" size="2" width="100%">
-        <h2 align="center"><font color="green" size="6"><u>Oh, wanna know more about me?</u></font></h2>
+        <hr color="green" size="5">
+        <h2 align="center"><font color="green" size="6">Oh, wanna know more about me?</font></h2>
         <p>1. I'm not an interesting person unless you come talk with me.</p>
         <p>2. I suck at human interaction, maybe.</p>
         <p>3. Don't judge me to be innocent from my looks, please. I've done a lot of wierd stuff, I'm very sure.</p>
-        <hr color="green" size="2" width="100%">
-        <h3 align="center"><font color="green" size="6"><u>My socials.</u></font></h3>
-        <div style="text-align:center">
+        <hr color="green" size="5">
+        <h3 align="center"><font color="green" size="6">My socials.</font></h3>
+        <p>
             <a href="https://www.youtube.com/c/SpacedAway" target="_blank" rel="noopener noreferrer" style="display: inline-block; color: rgb(255, 0, 0)"><font size="5">YouTube</font></a>
             <a href="https://github.com/ExplodieSway" target="_blank" rel="noopener noreferrer" style="display: inline-block; color: rgb(255, 255, 255)"><font size="5">GitHub</font></a>
             <a href="https://www.linkedin.com/in/svvayamgupta" target="_blank" rel="noopener noreferrer" style="display: inline-block; color: rgb(000, 119, 181)"><font size="5">LinkedIn</font></a>
-        </div>
-        <hr color="green" size="2" width="100%">
-        <h4 align="center"><font color="green" size="6"><u>My non-existent skills.</u></font></h4>
+        </p>
+        <hr color="green" size="5">
+        <h4 align="center"><font color="green" size="6">My non-existent skills.</font></h4>
         <p>1. Has installed and used Ubuntu-based Linux distros (it was a pain but a good experience).</p>
         <p>2. Yet I'm pretty good with Windows 10 and 11. Familiar down to Windows XP. Drivers become a pain the older the OS is.</p>
         <p>3. Knows enough English to survive in a professional setting.</p>
         <p>4. Decent at stackoverflow-jutsu.</p>
         <p>4. I forgor 💀</p>
-        <hr color="green" size="2" width="100%">
-        <h6 align="center"><font color="green" size="6"><u>Nothing here.</u></font></h6>
+        <hr color="green" size="5">
+        <h5 align="center"><font color="green" size="6">Nothing here.</font></h6>
         <img src="skeletons-berserk.gif" width="50%" alt="Nothing here." usemap="#img">
         <map name="img">
-            <area shape="default" href="https://youtu.be/dQw4w9WgXcQ" alt="Nothing here.">
-        <hr color="green" size="2" width="100%">
+            <area shape="default" href="https://youtu.be/dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer" alt="Nothing here.">
+    </div>
     </body>
 </html>
