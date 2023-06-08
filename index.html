@@ -4,7 +4,7 @@
         <meta name="p:domain_verify" content="c5e4c2aad4d000d47c5481900d79f742"/>
         <meta charset="utf-8">
         <title>My Sus Wesbite.</title>
-        <meta name="viewport" content="width=device-width">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -46,15 +46,38 @@
                 font-size: 23px;
                 text-align: center;
             }
-            img {
+            .pfp {
                 display: block;
                 margin-left: auto;
                 margin-right: auto;
                 border-radius: 100%;
-                width: 200px;
-                height: 200px;
+                width: auto;
+                max-width: 20%;
+                height: auto;
                 margin-bottom: 40px;
                 border: 5px solid #b0dde4;
+            }
+            @media only screen and (max-width: 767px) {
+                .pfp {
+                    max-width: 40%;
+                    border: 4px solid #b0dde4;
+                }
+            }
+            .empty {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: auto;
+                max-width: 70%;
+                height: auto;
+                margin-bottom: 40px;
+                border: 5px solid #b0dde4;
+            }
+            @media only screen and (max-width: 767px) {
+                .empty {
+                    max-width: 90%;
+                    border: 4px solid #b0dde4;
+                }
             }
             a {
                 font-family: 'Audiowide', cursive;
@@ -69,7 +92,7 @@
             </style>
         <div class="container">
         <h1 align="center"><font size="6">A Very Warm Welcome to My Webpage!</font></h1>
-        <img src="/sussy.png" loading="eager" title="Profile Picture.">
+        <img class="pfp" src="/sussy.png" loading="eager" title="Profile Picture.">
         <p>Hey! This is Explodie Sway, a script kiddie. This is a webpage I developed for no reason, updated irregularly.</p>
         <p>Hope you'll love to see it grow!</p>
         <hr color="#df4c73" size="5">
@@ -95,6 +118,7 @@
         <p>6. I forgor 💀</p>
         <hr color="#df4c73" size="5">
         <h5 align="center"><font size="6">Nothing here.</font></h5>
+        <img class="empty" src="/emptiness.gif" loading="eager" title="Emptiness is Eternal.">
     </div>
     </body>
 </html>
