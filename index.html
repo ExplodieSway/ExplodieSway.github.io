@@ -15,16 +15,28 @@
     <head>
     <body>
         <style type="text/css">
-            @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=IBM+Plex+Sans&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap');
             .container {
                 padding: 20px;
                 border-radius: 20px;
                 background-color: #cbccfc;
             }
+            .google-sans-flex-<uniquifier> {
+              font-family: "Google Sans Flex", sans-serif;
+              font-optical-sizing: auto;
+              font-weight: <weight>;
+              font-style: normal;
+              font-variation-settings:
+                "slnt" 0,
+                "wdth" 100,
+                "GRAD" 0,
+                "ROND" 0;
+            }
             body {
                 scrollbar-width: none;
                 background-color: #8099ff;
-                font-family: 'IBM Plex Sans', sans-serif;
+                font-family: 'Google Sans Flex', sans-serif;
                 line-height: 20pt;
             }
             body::-webkit-scrollbar {
